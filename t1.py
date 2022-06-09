@@ -11,6 +11,7 @@ for i in range(1000, 10000):
     value = (i, '0325', 'http', '', '', '', 'oghzNwMfzmJJPICngsWvF8aooTuI', 1840, '?app', 'nj', 0, '', '', '2021-03-25 17:15:18', '', '', '2021-05-19 15:03:52', '')
     cursor.execute(sql, value)
 
+
 cursor.close()
 db.commit()
 db.close()
